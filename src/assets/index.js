@@ -2,10 +2,16 @@
 // Header
 import miro from "./header/miro.svg";
 import earth from "./header/earth.svg";
+import arrowDown from "./header/arrow-down.svg";
 
 // --------------------------------------
 // Hero
 import hero from "./hero/hero.png";
+import fullStar from "./hero/full-star.svg";
+import halfStar from "./hero/half-star.svg";
+import heroLogo1 from "./hero/hero-logo-1.svg";
+import heroLogo2 from "./hero/hero-logo-2.svg";
+import heroLogo3 from "./hero/hero-logo-3.svg";
 
 // --------------------------------------
 // Trusted
@@ -49,7 +55,13 @@ import footerForm from "./footer/form.png";
 export {
   miro,
   earth,
+  arrowDown,
   hero,
+  fullStar,
+  halfStar,
+  heroLogo1,
+  heroLogo2,
+  heroLogo3,
   cisco,
   deloitte,
   okta,

@@ -1,5 +1,10 @@
 import "./header.css";
+import { NavBar } from "./navBar/navBar.jsx";
 
 export function Header() {
-  return <div>Header</div>;
+  return (
+    <header className="header">
+      <NavBar />
+    </header>
+  );
 }

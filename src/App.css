@@ -1,4 +1,27 @@
+/* 
+  --color-primary: slate-900;
+  --color-blue: blue-500;
+  --color-white: white;
+  --color-light-gray: neutral-100; 
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0 auto;
   font-family: "Inter", sans-serif;
-  font-weight: 900;
+  max-width: 1440px;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,3 +1,4 @@
+import "./App.css";
 import { Header, Hero, Trusted, Feature, Section, Footer } from "./components";
 
 function App() {
