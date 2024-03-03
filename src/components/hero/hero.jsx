@@ -7,16 +7,16 @@ import {
   heroLogo3,
 } from "../../assets";
 
-import { Button, Image } from "../utils";
+import { Button, Image, H1 } from "../utils";
 
 export function Hero() {
   return (
     <section className="w-full max-w-6xl mx-auto my-14 flex flex-row gap-x-14">
       <div className="flex flex-col content-evenly">
-        <h1 className="text-5xl text-slate-900 font-bold">
+        <H1 className="text-5xl text-slate-900 font-bold">
           Take ideas from better to best
-        </h1>
-        <p className=" text-lg text-slate-900 opacity-70 font-normal mt-4">
+        </H1>
+        <p className="text-lg text-slate-900 opacity-70 mt-4">
           Miro is your teams visual platform to connect, collaborate and create
           -- together
         </p>
@@ -51,7 +51,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-      {/* <img className="w-full max-w-2xl" src={hero} alt="" /> */}
       <Image size="w-full max-w-2xl" src={hero} alt="" />
     </section>
   );

@@ -24,7 +24,7 @@ import walmart from "./trusted/Walmart_Index_Only.svg";
 
 // --------------------------------------
 // Feature
-import featureHomepage from "./feature/feature-homepage.svg";
+import feature from "./feature/feature-homepage.svg";
 
 // --------------------------------------
 // Section
@@ -69,7 +69,7 @@ export {
   okta,
   volvo,
   walmart,
-  featureHomepage,
+  feature,
   person1,
   person2,
   person3,
