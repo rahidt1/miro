@@ -1,4 +1,3 @@
-import "./hero.css";
 import {
   hero,
   fullStar,
@@ -7,6 +6,8 @@ import {
   heroLogo2,
   heroLogo3,
 } from "../../assets";
+
+import { Button, Image } from "../utils";
 
 export function Hero() {
   return (
@@ -24,12 +25,8 @@ export function Hero() {
           type="text"
           placeholder="Enter your email"
         />
-        <a
-          href="#"
-          className="bg-blue-500 p-3 rounded-3xl text-white text-center mt-5 w-100"
-        >
-          Sign up free
-        </a>
+        <Button>Sing up free</Button>
+
         <p className="text-sm text-slate-900 opacity-40 mt-3">
           Collaborate with your team within minutes
         </p>
@@ -39,22 +36,23 @@ export function Hero() {
         >
           <div>
             <div className="flex">
-              <img className="w-4" src={fullStar} alt="" />
-              <img className="w-4" src={fullStar} alt="" />
-              <img className="w-4" src={fullStar} alt="" />
-              <img className="w-4" src={fullStar} alt="" />
-              <img className="w-4" src={halfStar} alt="" />
+              <Image size={"w-4"} src={fullStar} />
+              <Image size={"w-4"} src={fullStar} />
+              <Image size={"w-4"} src={fullStar} />
+              <Image size={"w-4"} src={fullStar} />
+              <Image size={"w-4"} src={halfStar} />
             </div>
             <p className="text-xs mt-1">Based on 5000+ reviews</p>
           </div>
           <div className="flex gap-x-3">
-            <img className="w-6" src={heroLogo1} alt="" />
-            <img className="w-13" src={heroLogo2} alt="" />
-            <img className="w-13" src={heroLogo3} alt="" />
+            <Image size={"w-6"} src={heroLogo1} />
+            <Image size={"w-13"} src={heroLogo2} />
+            <Image size={"w-13"} src={heroLogo3} />
           </div>
         </div>
       </div>
-      <img className="w-full max-w-2xl" src={hero} alt="" />
+      {/* <img className="w-full max-w-2xl" src={hero} alt="" /> */}
+      <Image size="w-full max-w-2xl" src={hero} alt="" />
     </section>
   );
 }
