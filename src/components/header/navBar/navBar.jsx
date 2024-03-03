@@ -1,4 +1,3 @@
-import "./navBar.css";
 import { NavList } from "./NavList";
 import { NavItem } from "./NavItem";
 import { miro, earth, arrowDown } from "../../../assets";

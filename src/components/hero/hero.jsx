@@ -11,7 +11,7 @@ import { Button, Image } from "../utils";
 
 export function Hero() {
   return (
-    <section className="w-full max-w-6xl mx-auto my-10 flex flex-row gap-x-14">
+    <section className="w-full max-w-6xl mx-auto my-14 flex flex-row gap-x-14">
       <div className="flex flex-col content-evenly">
         <h1 className="text-5xl text-slate-900 font-bold">
           Take ideas from better to best
