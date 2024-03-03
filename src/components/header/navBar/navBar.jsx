@@ -1,62 +1,64 @@
 import "./navBar.css";
-import { miro, arrowRight, earth, arrowDown } from "../../../assets";
+import { NavList } from "./NavList";
+import { NavItem } from "./NavItem";
+import { miro, earth, arrowDown } from "../../../assets";
+
 import { Button, Image, Link } from "../../utils";
 
 export function NavBar() {
   return (
-    <nav className="nav">
-      <ul className="navList">
+    <nav className="flex justify-between items-center min-h-24 max-w-7xl mx-auto my-0">
+      <NavList className="flex items-center gap-x-3 list-none">
         <Image src={miro} alt="Miro Logo" />
-
-        <li className="flex flex-row">
+        <NavItem className="flex flex-row">
           <Link className="mr-2 ml-2" href="#">
             Products
           </Link>
           <Image src={arrowDown} />
-        </li>
-        <li className="flex flex-row">
+        </NavItem>
+        <NavItem className="flex flex-row">
           <Link className="mr-2" href="#">
             Solutions
           </Link>
           <Image src={arrowDown} />
-        </li>
-        <li className="flex flex-row">
+        </NavItem>
+        <NavItem className="flex flex-row">
           <Link className="mr-2" href="#">
             Resources
           </Link>
           <Image src={arrowDown} />
-        </li>
-
-        <li>
+        </NavItem>
+        <NavItem>
           <Link className="mr-2" href="#">
             Enterprise
           </Link>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <Link className="mr-2" href="#">
             Pricing
           </Link>
-        </li>
-      </ul>
-      <ul className="navList nav2">
-        <li className="flex flex-row gap-x-2">
+        </NavItem>
+      </NavList>
+
+      <NavList>
+        <NavItem className="flex flex-row gap-x-2">
           <Image src={earth} />
           <Link href="#">EN</Link>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <Link className="mr-2" href="#">
             Contact Sales
           </Link>
-        </li>
-        <li>
+        </NavItem>
+        <NavItem>
           <Link className="mr-2" href="#">
             Login
           </Link>
-        </li>
-        <li>
-          <Button>Sign up free</Button>
-        </li>
-      </ul>
+        </NavItem>
+        <NavItem>
+          <Button color="bg-blue-500">Sign up free</Button>
+        </NavItem>
+      </NavList>
     </nav>
   );
 }

@@ -25,7 +25,7 @@ export function Hero() {
           type="text"
           placeholder="Enter your email"
         />
-        <Button>Sing up free</Button>
+        <Button color="bg-blue-500">Sing up free</Button>
 
         <p className="text-sm text-slate-900 opacity-40 mt-3">
           Collaborate with your team within minutes
