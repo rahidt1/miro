@@ -13,7 +13,7 @@ import { footerLogo1, footerLogo2, footerLogo3 } from "../../assets";
 export function Footer() {
   return (
     <footer className="bg-slate-900 max-w-[1440px]">
-      <SectionImage>
+      <SectionImage className="flex-col">
         <div className="flex gap-x-12 items-start mt-24">
           <div>
             <H2 className="text-white text-2xl mb-8">Scan.Detect.Remove.</H2>
@@ -83,6 +83,12 @@ export function Footer() {
             </form>
           </div>
         </div>
+        <P className="text-white text-xs opacity-100 w-full max-w-2xl mt-12">
+          Apple, the Apple logo and iPhone are trademark of Apple Inc.,
+          regiestered in the US and other counties. App strore is a service mark
+          of Apple Inc. Android, Google Play and the Google Play logo are
+          trademarks of Google LLC.
+        </P>
       </SectionImage>
     </footer>
   );
