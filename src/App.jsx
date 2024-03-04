@@ -9,7 +9,7 @@ import {
   Way,
   BuildWork,
   BuildTeam,
-  Loved,
+  Reviews,
   Footer,
 } from "./components";
 
@@ -25,7 +25,7 @@ function App() {
       <Way />
       <BuildWork />
       <BuildTeam />
-      <Loved />
+      <Reviews />
       <Footer />
     </div>
   );

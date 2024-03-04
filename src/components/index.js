@@ -7,7 +7,7 @@ import { Connect } from "./section/Connect.jsx";
 import { Way } from "./section/Way.jsx";
 import { BuildWork } from "./section/BuildWork.jsx";
 import { BuildTeam } from "./section/BuildTeam.jsx";
-import { Loved } from "./section/Loved.jsx";
+import { Reviews } from "./section/Reviews.jsx";
 import { Footer } from "./footer/Footer.jsx";
 
 export {
@@ -20,6 +20,6 @@ export {
   Way,
   BuildWork,
   BuildTeam,
-  Loved,
+  Reviews,
   Footer,
 };

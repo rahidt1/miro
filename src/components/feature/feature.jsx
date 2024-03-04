@@ -1,9 +1,9 @@
-import { H1, H2, P, Image, Link, Button } from "../utils";
+import { H1, H2, P, Image, Link, Button, SectionImage } from "../utils";
 import { feature } from "../../assets";
 
 export function Feature() {
   return (
-    <section className="w-full max-w-6xl mx-auto my-14 flex flex-col items-center relative">
+    <SectionImage className="flex-col items-center relative">
       <Image
         className="absolute right-1/4 top-[-100px]"
         src={feature}
@@ -50,7 +50,9 @@ export function Feature() {
           </P>
         </div>
       </div>
-      <Button color="bg-blue-500 w-44">Sign up free</Button>
-    </section>
+      <Button color="bg-blue-500" size="w-44">
+        Sign up free
+      </Button>
+    </SectionImage>
   );
 }
