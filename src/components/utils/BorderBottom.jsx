@@ -1,3 +1,9 @@
-export function BorderBottom() {
-  return <span className="border border-blue-500 w-24"></span>;
+import { twMerge } from "tailwind-merge";
+
+export function BorderBottom({ color, size, className }) {
+  return (
+    <span
+      className={twMerge(`block border ${color} ${size} ${className}`)}
+    ></span>
+  );
 }

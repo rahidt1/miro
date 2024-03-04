@@ -10,12 +10,12 @@ import {
 
 export function Reviews() {
   return (
-    <SectionImage className="flex-col items-center">
+    <SectionImage className="flex-col items-center mb-28">
       <H1>Loved by the world's best teams</H1>
       <Button color="border border-blue-500 text-blue-500" size="w-64">
         See all customer stories
       </Button>
-      <div className="flex mt-12">
+      <div className="flex gap-x-28 mt-12">
         <div className="flex flex-col">
           <Image src={vmware} />
           <P className="mt-8">

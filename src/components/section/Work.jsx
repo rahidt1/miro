@@ -22,7 +22,7 @@ export function Work() {
         <Button className="mt-8 p-0 w-36 text-start" color="text-blue-500">
           Learn More
         </Button>
-        <BorderBottom />
+        <BorderBottom size="w-24" color="border-blue-500" />
       </TextWrapper>
       <Image src={sectionImage2} size="w-full max-w-xl"></Image>
     </SectionImage>

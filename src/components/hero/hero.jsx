@@ -7,7 +7,7 @@ import {
   heroLogo3,
 } from "../../assets";
 
-import { SectionImage, Button, Image, H1 } from "../utils";
+import { SectionImage, Button, Image, H1, Input } from "../utils";
 
 export function Hero() {
   return (
@@ -20,11 +20,7 @@ export function Hero() {
           Miro is your teams visual platform to connect, collaborate and create
           -- together
         </p>
-        <input
-          className="border border-stone-500 rounded-3xl pl-5 pt-3 pb-3 mt-8 w-100"
-          type="text"
-          placeholder="Enter your email"
-        />
+        <Input placeholder="Enter your email" />
         <Button color="bg-blue-500">Sing up free</Button>
 
         <p className="text-sm text-slate-900 opacity-40 mt-3">

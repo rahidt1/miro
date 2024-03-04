@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        customFont: ['"Inter"', "sans-serif"],
+        // Add more custom font families as needed
+      },
       content: {
         arrowDownIcon: 'url("./src/assets/header/arrow-down.svg")',
         arrowRightIcon: 'url("./src/assets/header/arrow-right-white.svg")',

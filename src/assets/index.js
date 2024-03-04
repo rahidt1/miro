@@ -57,7 +57,7 @@ import vmware from "./sections/company/vmware.svg";
 import footerLogo1 from "./footer/logo/footer-logo-1.svg";
 import footerLogo2 from "./footer/logo/footer-logo-2.svg";
 import footerLogo3 from "./footer/logo/footer-logo-3.svg";
-import footerForm from "./footer/form.png";
+import footerForm from "./footer/form.svg";
 
 export {
   miro,

@@ -1,4 +1,5 @@
-import "./App.css";
+import { twMerge } from "tailwind-merge";
+
 import {
   Header,
   Hero,
@@ -15,7 +16,11 @@ import {
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div
+      className={twMerge(
+        `flex flex-col box-border font-customFont w-full max-w-[1440px] mx-auto my-0`
+      )}
+    >
       <Header />
       <Hero />
       <Trusted />
