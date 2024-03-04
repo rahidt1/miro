@@ -28,6 +28,12 @@ import feature from "./feature/feature-homepage.svg";
 
 // --------------------------------------
 // Section
+// Section Logo
+import SectionLogo1 from "./sections/logo/section-logo1.svg";
+import SectionLogo2 from "./sections/logo/section-logo2.svg";
+import SectionLogo3 from "./sections/logo/section-logo3.svg";
+import SectionLogo4 from "./sections/logo/section-logo4.svg";
+
 // Section Persons
 import person1 from "./sections/people/person1.png";
 import person2 from "./sections/people/person2.png";
@@ -70,6 +76,10 @@ export {
   volvo,
   walmart,
   feature,
+  SectionLogo1,
+  SectionLogo2,
+  SectionLogo3,
+  SectionLogo4,
   person1,
   person2,
   person3,
