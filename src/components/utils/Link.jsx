@@ -1,6 +1,8 @@
+import { twMerge } from "tailwind-merge";
+
 export function Link({ href, children, className }) {
   return (
-    <a className={`text-base ${className}`} href={href}>
+    <a className={twMerge(`text-base ${className}`)} href={href}>
       {children}
     </a>
   );

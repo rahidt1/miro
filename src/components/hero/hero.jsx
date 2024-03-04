@@ -7,12 +7,12 @@ import {
   heroLogo3,
 } from "../../assets";
 
-import { Button, Image, H1 } from "../utils";
+import { SectionImage, Button, Image, H1 } from "../utils";
 
 export function Hero() {
   return (
-    <section className="w-full max-w-6xl mx-auto my-14 flex flex-row gap-x-14">
-      <div className="flex flex-col content-evenly">
+    <SectionImage>
+      <div className="flex flex-col">
         <H1 className="text-5xl text-slate-900 font-bold">
           Take ideas from better to best
         </H1>
@@ -52,6 +52,6 @@ export function Hero() {
         </div>
       </div>
       <Image size="w-full max-w-2xl" src={hero} alt="" />
-    </section>
+    </SectionImage>
   );
 }

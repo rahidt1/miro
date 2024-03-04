@@ -1,5 +1,17 @@
 import "./App.css";
-import { Header, Hero, Trusted, Feature, Section, Footer } from "./components";
+import {
+  Header,
+  Hero,
+  Trusted,
+  Feature,
+  Work,
+  Connect,
+  Way,
+  BuildWork,
+  BuildTeam,
+  Loved,
+  Footer,
+} from "./components";
 
 function App() {
   return (
@@ -8,7 +20,12 @@ function App() {
       <Hero />
       <Trusted />
       <Feature />
-      <Section />
+      <Work />
+      <Connect />
+      <Way />
+      <BuildWork />
+      <BuildTeam />
+      <Loved />
       <Footer />
     </div>
   );
