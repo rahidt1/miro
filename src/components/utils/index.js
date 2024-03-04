@@ -9,6 +9,7 @@ import { H2 } from "./H2";
 import { P } from "./P";
 import { BorderBottom } from "./BorderBottom";
 import { Input } from "./Input.jsx";
+import { Highlighter } from "./Highlighter.jsx";
 
 export {
   SectionImage,
@@ -22,4 +23,5 @@ export {
   P,
   BorderBottom,
   Input,
+  Highlighter,
 };

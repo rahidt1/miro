@@ -1,4 +1,5 @@
-import { cisco, deloitte, okta, volvo, walmart } from "../../assets";
+// import { cisco, deloitte, okta, volvo, walmart } from "../../assets";
+import { TRUSTED } from "../../data";
 import { Image } from "../utils";
 
 export function Trusted() {
@@ -8,11 +9,9 @@ export function Trusted() {
         Trusted by 45M+ users
       </p>
       <div className="flex justify-evenly">
-        <Image src={cisco} />
-        <Image src={deloitte} />
-        <Image src={okta} />
-        <Image src={volvo} />
-        <Image src={walmart} />
+        {TRUSTED.map((item) => (
+          <Image key={item.name} src={item.image} />
+        ))}
       </div>
     </section>
   );

@@ -55,7 +55,9 @@ export function NavBar() {
           </Link>
         </NavItem>
         <NavItem>
-          <Button color="bg-blue-500">Sign up free</Button>
+          <Button color="bg-blue-500" size="px-4">
+            Sign up free
+          </Button>
         </NavItem>
       </NavList>
     </nav>
