@@ -25,8 +25,8 @@ function App() {
       {/* <Hero /> */}
       {/* <Trusted /> */}
       {/* <Feature /> */}
-      <Work />
-      {/* <Connect /> */}
+      {/* <Work /> */}
+      <Connect />
       {/* <Way /> */}
       {/* <BuildWork /> */}
       {/* <BuildTeam /> */}

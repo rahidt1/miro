@@ -12,7 +12,7 @@ import { sectionImage2 } from "../../assets";
 export function Work() {
   return (
     <SectionImage className="mt-0 lg:gap-y-0">
-      <TextWrapper className="lg:w-xs lg:gap-y-0">
+      <TextWrapper className=" lg:gap-y-0">
         <H1 className="mt-36 lg:text-center lg:text-4xl">
           Work together, wherever you work
         </H1>
