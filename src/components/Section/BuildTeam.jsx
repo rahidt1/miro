@@ -1,6 +1,6 @@
-import { H1, SectionImage, TextWrapper, Image, Button, P } from "../utils";
-import { Point } from "../utils";
-import { tick } from "../../assets";
+import { H1, SectionImage, TextWrapper, Image, Button, P } from "../utils/index.js";
+import { Point } from "../utils/index.js";
+import { tick } from "../../assets/index.js";
 import { BUILDTEAMTEXT } from "../../data.js";
 import { useState } from "react";
 
