@@ -4,6 +4,7 @@ import miro from "./header/miro.svg";
 import earth from "./header/earth.svg";
 import arrowDown from "./header/arrow-down.svg";
 import arrowRight from "./header/arrow-right-white.svg";
+import menu from "./header/menu.svg";
 
 // --------------------------------------
 // Hero
@@ -90,6 +91,7 @@ export {
   earth,
   arrowDown,
   arrowRight,
+  menu,
   hero,
   fullStar,
   halfStar,

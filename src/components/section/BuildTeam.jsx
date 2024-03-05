@@ -60,7 +60,7 @@ export function BuildTeam() {
       </div>
       <SectionImage>
         <TextWrapper>
-          <ul className="flex flex-col gap-y-4 mt-8">
+          <ul className="mt-8 flex flex-col gap-y-4">
             {BUILDTEAMTEXT[selectedPoint].list.map((item) => (
               <li className="flex gap-x-4 opacity-60">
                 <Image src={tick} />
@@ -69,7 +69,7 @@ export function BuildTeam() {
             ))}
           </ul>
 
-          <Button className="mt-8 p-0 w-36 text-start" color="text-blue-500">
+          <Button className="mt-8 w-36 p-0 text-start" color="text-blue-500">
             Learn More
           </Button>
 

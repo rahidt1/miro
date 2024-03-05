@@ -11,11 +11,11 @@ export function Button({
   return (
     <a
       className={twMerge(
-        `p-3 rounded-3xl cursor-pointer text-center text-white text-nowrap mt-5 ${
+        `mt-5 cursor-pointer text-nowrap rounded-3xl p-3 text-center text-white ${
           content
-            ? "after:content-['->'] after:inline-block after:w-5"
-            : "after:content-[''] after:w-0"
-        } ${color} ${size} ${className}`
+            ? "after:inline-block after:w-5 after:content-['->']"
+            : "after:w-0 after:content-['']"
+        } ${color} ${size} ${className}`,
       )}
       {...props}
     >

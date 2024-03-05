@@ -19,7 +19,7 @@ export function Work() {
           connect, collaborate and co-create in one space no matter where you
           are.
         </P>
-        <Button className="mt-8 p-0 w-36 text-start" color="text-blue-500">
+        <Button className="mt-8 w-36 p-0 text-start" color="text-blue-500">
           Learn More
         </Button>
         <BorderBottom size="w-24" color="border-blue-500" />

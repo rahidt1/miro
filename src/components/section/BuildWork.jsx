@@ -61,7 +61,7 @@ export function BuildWork() {
         <TextWrapper>
           <H2 className="font-normal">{BUILDWORKTEST[selectedPoint].title}</H2>
           <P>{BUILDWORKTEST[selectedPoint].description}</P>
-          <Button className="mt-8 p-0 w-36 text-start" color="text-blue-500">
+          <Button className="mt-8 w-36 p-0 text-start" color="text-blue-500">
             Learn More
           </Button>
         </TextWrapper>

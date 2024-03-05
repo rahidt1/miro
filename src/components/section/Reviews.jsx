@@ -10,12 +10,12 @@ import {
 
 export function Reviews() {
   return (
-    <SectionImage className="flex-col items-center mb-28">
+    <SectionImage className="mb-28 flex-col items-center">
       <H1>Loved by the world's best teams</H1>
       <Button color="border border-blue-500 text-blue-500" size="w-64">
         See all customer stories
       </Button>
-      <div className="flex gap-x-28 mt-12">
+      <div className="mt-12 flex gap-x-28">
         <div className="flex flex-col">
           <Image src={vmware} />
           <P className="mt-8">
@@ -24,7 +24,7 @@ export function Reviews() {
             would suffer. Miro was the perfect tool to help us with
             collaborattion, whiteboarding and retrospectives while remote"
           </P>
-          <div className="flex items-center gap-x-2 mt-3">
+          <div className="mt-3 flex items-center gap-x-2">
             <Image src={person1} />
             <div>
               <P className="text-xs">Rosanne Mustafa</P>
@@ -40,7 +40,7 @@ export function Reviews() {
             would suffer. Miro was the perfect tool to help us with
             collaborattion, whiteboarding and retrospectives while remote"
           </P>
-          <div className="flex items-center gap-x-2 mt-3">
+          <div className="mt-3 flex items-center gap-x-2">
             <Image src={person2} />
             <div>
               <P className="text-xs">Rosanne Mustafa</P>
@@ -56,7 +56,7 @@ export function Reviews() {
             would suffer. Miro was the perfect tool to help us with
             collaborattion, whiteboarding and retrospectives while remote"
           </P>
-          <div className="flex items-center gap-x-2 mt-3">
+          <div className="mt-3 flex items-center gap-x-2">
             <Image src={person3} />
             <div>
               <P className="text-xs">Rosanne Mustafa</P>

@@ -18,11 +18,11 @@ function App() {
   return (
     <div
       className={twMerge(
-        `flex flex-col box-border font-customFont w-full max-w-[1440px] mx-auto my-0`
+        `mx-auto my-0 box-border flex w-full max-w-[1440px] flex-col font-customFont`,
       )}
     >
       <Header />
-      <Hero />
+      {/* <Hero />
       <Trusted />
       <Feature />
       <Work />
@@ -31,7 +31,7 @@ function App() {
       <BuildWork />
       <BuildTeam />
       <Reviews />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
