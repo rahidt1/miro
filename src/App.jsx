@@ -26,9 +26,9 @@ function App() {
       {/* <Trusted /> */}
       {/* <Feature /> */}
       {/* <Work /> */}
-      <Connect />
+      {/* <Connect /> */}
       {/* <Way /> */}
-      {/* <BuildWork /> */}
+      <BuildWork />
       {/* <BuildTeam /> */}
       {/* <Reviews /> */}
       {/* <Footer />  */}
