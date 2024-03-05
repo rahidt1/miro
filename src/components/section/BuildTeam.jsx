@@ -12,14 +12,16 @@ export function BuildTeam() {
   }
 
   return (
-    <SectionImage className="flex-col">
-      <H1>Build for all kinds of team</H1>
-      <div className="mt-4 flex gap-x-3 ">
+    <SectionImage className="xs:mt-0 flex-col lg:gap-y-0">
+      <H1 className='lg:text-4xl" lg:text-center'>
+        Build for all kinds of team
+      </H1>
+      <div className="xs:grid-cols-2 mt-4 grid grid-cols-7 gap-x-3 lg:grid-cols-4 sm:grid-cols-3">
         <Point
           isSelected={selectedPoint === "ux"}
           onClick={() => handleSelect("ux")}
         >
-          UX & Design
+          UX
         </Point>
         <Point
           isSelected={selectedPoint === "marketing"}
@@ -31,7 +33,7 @@ export function BuildTeam() {
           isSelected={selectedPoint === "product"}
           onClick={() => handleSelect("product")}
         >
-          Product Management
+          Product
         </Point>
         <Point
           isSelected={selectedPoint === "engineering"}
@@ -58,9 +60,9 @@ export function BuildTeam() {
           Sales
         </Point>
       </div>
-      <SectionImage>
+      <SectionImage className="lg:mt-0 lg:pt-0 ">
         <TextWrapper>
-          <ul className="mt-8 flex flex-col gap-y-4">
+          <ul className="mt-8 flex flex-col gap-y-4 lg:text-start ">
             {BUILDTEAMTEXT[selectedPoint].list.map((item) => (
               <li className="flex gap-x-4 opacity-60">
                 <Image src={tick} />
@@ -69,12 +71,17 @@ export function BuildTeam() {
             ))}
           </ul>
 
-          <Button className="mt-8 w-36 p-0 text-start" color="text-blue-500">
+          <Button
+            className=" lg:text-centermt-8 w-36 p-0 text-start"
+            color="text-blue-500"
+          >
             Learn More
           </Button>
 
-          <P className="mt-12">Integrate your favorite tools</P>
-          <div className="mt-4 flex gap-x-4">
+          <P className="mt-12 lg:mt-8 lg:text-center">
+            Integrate your favorite tools
+          </P>
+          <div className="mt-4 flex gap-x-4 lg:text-center">
             {BUILDTEAMTEXT[selectedPoint].logo.map((logo) => (
               <Image size="w-6" src={logo} />
             ))}

@@ -28,8 +28,8 @@ function App() {
       {/* <Work /> */}
       {/* <Connect /> */}
       {/* <Way /> */}
-      <BuildWork />
-      {/* <BuildTeam /> */}
+      {/* <BuildWork /> */}
+      <BuildTeam />
       {/* <Reviews /> */}
       {/* <Footer />  */}
     </div>
