@@ -1,14 +1,14 @@
-import { Header } from "./header/Header.jsx";
-import { Hero } from "./hero/hero.jsx";
-import { Trusted } from "./trusted/Trusted.jsx";
-import { Feature } from "./feature/Feature.jsx";
-import { Work } from "./section/Work.jsx";
-import { Connect } from "./section/Connect.jsx";
-import { Way } from "./section/Way.jsx";
-import { BuildWork } from "./section/BuildWork.jsx";
-import { BuildTeam } from "./section/BuildTeam.jsx";
-import { Reviews } from "./section/Reviews.jsx";
-import { Footer } from "./footer/Footer.jsx";
+import { Header } from "./Header/Header.jsx";
+import { Hero } from "./Hero/hero.jsx";
+import { Trusted } from "./Trusted/Trusted.jsx";
+import { Feature } from "./Feature/Feature.jsx";
+import { Work } from "./Section/Work.jsx";
+import { Connect } from "./Section/Connect.jsx";
+import { Way } from "./Section/Way.jsx";
+import { BuildWork } from "./Section/BuildWork.jsx";
+import { BuildTeam } from "./Section/BuildTeam.jsx";
+import { Reviews } from "./Section/Reviews.jsx";
+import { Footer } from "./Footer/Footer.jsx";
 
 export {
   Header,
