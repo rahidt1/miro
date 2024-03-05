@@ -22,15 +22,15 @@ function App() {
       )}
     >
       <Header />
-      {/* <Hero /> */}
-      {/* <Trusted /> */}
-      {/* <Feature /> */}
-      {/* <Work /> */}
-      {/* <Connect /> */}
-      {/* <Way /> */}
-      {/* <BuildWork /> */}
-      {/* <BuildTeam /> */}
-      {/* <Reviews /> */}
+      <Hero />
+      <Trusted />
+      <Feature />
+      <Work />
+      <Connect />
+      <Way />
+      <BuildWork />
+      <BuildTeam />
+      <Reviews />
       <Footer />
     </div>
   );

@@ -10,13 +10,13 @@ import {
 
 export function Reviews() {
   return (
-    <SectionImage className="mb-28 flex-col items-center">
+    <SectionImage className="mb-28 flex-col items-center ">
       <H1>Loved by the world's best teams</H1>
       <Button color="border border-blue-500 text-blue-500" size="w-64">
         See all customer stories
       </Button>
-      <div className="mt-12 flex gap-x-28">
-        <div className="flex flex-col">
+      <div className="mt-12 grid grid-cols-3  gap-x-28 lg:grid-cols-1 lg:gap-y-4">
+        <div className="flex flex-col lg:w-96 ">
           <Image src={vmware} />
           <P className="mt-8">
             "When pandemic hit, those of us who thrive on in-person
@@ -32,7 +32,7 @@ export function Reviews() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col lg:w-96">
           <Image src={docusign} />
           <P className="mt-8">
             "When pandemic hit, those of us who thrive on in-person
@@ -48,7 +48,7 @@ export function Reviews() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col lg:w-96">
           <Image src={frog} />
           <P className="mt-8">
             "When pandemic hit, those of us who thrive on in-person

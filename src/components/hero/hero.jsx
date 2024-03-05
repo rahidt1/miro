@@ -27,7 +27,7 @@ export function Hero() {
           Collaborate with your team within minutes
         </p>
         <div
-          className="mt-7 flex items-center justify-between rounded-2xl bg-neutral-100 px-5 py-4 lg:justify-evenly lg:bg-orange-500 
+          className="mt-7 flex items-center justify-between rounded-2xl bg-neutral-100 px-5 py-4 lg:justify-evenly 
         "
         >
           <div className="">
