@@ -29,9 +29,9 @@ function App() {
       {/* <Connect /> */}
       {/* <Way /> */}
       {/* <BuildWork /> */}
-      <BuildTeam />
+      {/* <BuildTeam /> */}
       {/* <Reviews /> */}
-      {/* <Footer />  */}
+      <Footer />
     </div>
   );
 }
