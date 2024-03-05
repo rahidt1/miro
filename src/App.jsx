@@ -22,16 +22,16 @@ function App() {
       )}
     >
       <Header />
-      <Hero />
-      {/* <Trusted />
-      <Feature />
+      {/* <Hero /> */}
+      {/* <Trusted /> */}
+      {/* <Feature /> */}
       <Work />
-      <Connect />
-      <Way />
-      <BuildWork />
-      <BuildTeam />
-      <Reviews />
-      <Footer />  */}
+      {/* <Connect /> */}
+      {/* <Way /> */}
+      {/* <BuildWork /> */}
+      {/* <BuildTeam /> */}
+      {/* <Reviews /> */}
+      {/* <Footer />  */}
     </div>
   );
 }

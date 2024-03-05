@@ -11,7 +11,7 @@ import { SectionImage, Button, Image, H1, Input } from "../utils";
 
 export function Hero() {
   return (
-    <SectionImage className="p-8 ">
+    <SectionImage>
       <div className="flex max-w-96 flex-col lg:max-w-lg ">
         <H1 className="text-5xl font-bold text-slate-900 lg:text-center">
           Take ideas from better to best
