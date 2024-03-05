@@ -1,4 +1,4 @@
-import { NavBar } from "./navBar/NavBar.jsx";
+import { NavBar } from "./Navbar/NavBar.js";
 
 export function Header() {
   return (
