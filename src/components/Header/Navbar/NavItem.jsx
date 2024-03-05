@@ -1,3 +1,3 @@
-export function NavItem({ children, className }) {
+export function Navitem({ children, className }) {
   return <li className={className}>{children}</li>;
 }

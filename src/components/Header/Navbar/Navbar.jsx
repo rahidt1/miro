@@ -1,11 +1,11 @@
-import { NavList } from "./NavList";
-import { NavItem } from "./NavItem";
+import { Navlist } from "./Navlist";
+import { NavigationPreloadManager } from "./NavigationPreloadManager";
 import { miro, earth, arrowDown, menu } from "../../../assets";
 
 import { Button, Image, Link } from "../../utils";
 import { useState } from "react";
 
-export function NavBar() {
+export function Navbar() {
   const [show, setShow] = useState(false);
 
   function handleClick() {
@@ -23,68 +23,68 @@ export function NavBar() {
           className="xs:static left-8 top-8 lg:absolute"
         />
 
-        <NavList
+        <Navlist
           className={`xs:mt-0 flex list-none items-center gap-x-3 lg:mt-12 lg:flex-col lg:items-center lg:gap-y-2 ${show ? "" : "lg:hidden"}`}
         >
           <div
             className={`flex gap-x-3 lg:flex-col lg:items-center lg:gap-y-2`}
           >
-            <NavItem className="flex flex-row">
+            <NavigationPreloadManager className="flex flex-row">
               <Link className="ml-2 mr-2 after:w-0" href="#">
                 Products
               </Link>
               <Image className="lg:hidden md:hidden" src={arrowDown} />
-            </NavItem>
-            <NavItem className="flex flex-row">
+            </NavigationPreloadManager>
+            <NavigationPreloadManager className="flex flex-row">
               <Link className="mr-2" href="#">
                 Solutions
               </Link>
               <Image className="lg:hidden md:hidden" src={arrowDown} />
-            </NavItem>
-            <NavItem className="flex flex-row">
+            </NavigationPreloadManager>
+            <NavigationPreloadManager className="flex flex-row">
               <Link className="mr-2" href="#">
                 Resources
               </Link>
               <Image className="lg:hidden md:hidden" src={arrowDown} />
-            </NavItem>
-            <NavItem>
+            </NavigationPreloadManager>
+            <NavigationPreloadManager>
               <Link className="mr-2" href="#">
                 Enterprise
               </Link>
-            </NavItem>
-            <NavItem>
+            </NavigationPreloadManager>
+            <NavigationPreloadManager>
               <Link className="mr-2" href="#">
                 Pricing
               </Link>
-            </NavItem>
+            </NavigationPreloadManager>
           </div>
-        </NavList>
+        </Navlist>
       </div>
-      <NavList
+      <Navlist
         className={`lg:flex-col lg:items-center lg:gap-y-2 ${show ? "" : "lg:hidden"}`}
       >
         <div className="flex gap-x-3 lg:flex-col lg:items-center lg:gap-y-2">
-          <NavItem className="flex flex-row gap-x-2">
+          <NavigationPreloadManager className="flex flex-row gap-x-2">
             <Image className="lg:hidden md:hidden" src={earth} />
             <Link href="#">EN</Link>
-          </NavItem>
-          <NavItem>
+          </NavigationPreloadManager>
+          <NavigationPreloadManager>
             <Link className="mr-2" href="#">
               Contact Sales
             </Link>
-          </NavItem>
-          <NavItem>
+          </NavigationPreloadManager>
+          <NavigationPreloadManager>
             <Link className="mr-2" href="#">
               Login
             </Link>
-          </NavItem>
-          <NavItem>
+          </NavigationPreloadManager>
+          <NavigationPreloadManager>
             <Button color="bg-blue-500" size="px-4">
               Sign up free
             </Button>
-          </NavItem>
+          </NavigationPreloadManager>
         </div>
-      </NavList>
+      </Navlist>
 
       <Image
         size="w-8"
