@@ -6,7 +6,7 @@ import {
   SectionImage,
   TextWrapper,
   BorderBottom,
-} from "../utils";
+} from "../Utils";
 import { sectionImage2 } from "../../assets";
 
 export function Work() {

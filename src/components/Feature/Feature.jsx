@@ -1,4 +1,4 @@
-import { H1, H2, P, Image, Button, SectionImage, Highlighter } from "../utils";
+import { H1, H2, P, Image, Button, SectionImage, Highlighter } from "../Utils";
 import { feature } from "../../assets";
 import { FEATURETEXT } from "../../data";
 

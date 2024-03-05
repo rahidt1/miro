@@ -7,7 +7,7 @@ import {
   BorderBottom,
   Button,
   Input,
-} from "../utils";
+} from "../Utils";
 import { footerLogo1, footerLogo2, footerLogo3 } from "../../assets";
 
 export function Footer() {

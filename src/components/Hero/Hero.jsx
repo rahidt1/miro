@@ -7,7 +7,7 @@ import {
   heroLogo3,
 } from "../../assets";
 
-import { SectionImage, Button, Image, H1, Input } from "../utils";
+import { SectionImage, Button, Image, H1, Input } from "../Utils";
 
 export function Hero() {
   return (

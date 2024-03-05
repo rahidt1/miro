@@ -6,7 +6,7 @@ import {
   P,
   Button,
   BorderBottom,
-} from "../utils";
+} from "../Utils";
 import { sectionImage3 } from "../../assets";
 
 export function Connect() {

@@ -1,6 +1,6 @@
 // import { cisco, deloitte, okta, volvo, walmart } from "../../assets";
 import { TRUSTED } from "../../data";
-import { Image } from "../utils";
+import { Image } from "../Utils";
 
 export function Trusted() {
   return (

@@ -1,8 +1,8 @@
 import { Navlist } from "./Navlist";
-import { NavigationPreloadManager } from "./NavigationPreloadManager";
+import { Navitem } from "./Navitem";
 import { miro, earth, arrowDown, menu } from "../../../assets";
 
-import { Button, Image, Link } from "../../utils";
+import { Button, Image, Link } from "../../Utils";
 import { useState } from "react";
 
 export function Navbar() {
@@ -29,34 +29,34 @@ export function Navbar() {
           <div
             className={`flex gap-x-3 lg:flex-col lg:items-center lg:gap-y-2`}
           >
-            <NavigationPreloadManager className="flex flex-row">
+            <Navitem className="flex flex-row">
               <Link className="ml-2 mr-2 after:w-0" href="#">
                 Products
               </Link>
               <Image className="lg:hidden md:hidden" src={arrowDown} />
-            </NavigationPreloadManager>
-            <NavigationPreloadManager className="flex flex-row">
+            </Navitem>
+            <Navitem className="flex flex-row">
               <Link className="mr-2" href="#">
                 Solutions
               </Link>
               <Image className="lg:hidden md:hidden" src={arrowDown} />
-            </NavigationPreloadManager>
-            <NavigationPreloadManager className="flex flex-row">
+            </Navitem>
+            <Navitem className="flex flex-row">
               <Link className="mr-2" href="#">
                 Resources
               </Link>
               <Image className="lg:hidden md:hidden" src={arrowDown} />
-            </NavigationPreloadManager>
-            <NavigationPreloadManager>
+            </Navitem>
+            <Navitem>
               <Link className="mr-2" href="#">
                 Enterprise
               </Link>
-            </NavigationPreloadManager>
-            <NavigationPreloadManager>
+            </Navitem>
+            <Navitem>
               <Link className="mr-2" href="#">
                 Pricing
               </Link>
-            </NavigationPreloadManager>
+            </Navitem>
           </div>
         </Navlist>
       </div>
@@ -64,25 +64,25 @@ export function Navbar() {
         className={`lg:flex-col lg:items-center lg:gap-y-2 ${show ? "" : "lg:hidden"}`}
       >
         <div className="flex gap-x-3 lg:flex-col lg:items-center lg:gap-y-2">
-          <NavigationPreloadManager className="flex flex-row gap-x-2">
+          <Navitem className="flex flex-row gap-x-2">
             <Image className="lg:hidden md:hidden" src={earth} />
             <Link href="#">EN</Link>
-          </NavigationPreloadManager>
-          <NavigationPreloadManager>
+          </Navitem>
+          <Navitem>
             <Link className="mr-2" href="#">
               Contact Sales
             </Link>
-          </NavigationPreloadManager>
-          <NavigationPreloadManager>
+          </Navitem>
+          <Navitem>
             <Link className="mr-2" href="#">
               Login
             </Link>
-          </NavigationPreloadManager>
-          <NavigationPreloadManager>
+          </Navitem>
+          <Navitem>
             <Button color="bg-blue-500" size="px-4">
               Sign up free
             </Button>
-          </NavigationPreloadManager>
+          </Navitem>
         </div>
       </Navlist>
 

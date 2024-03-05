@@ -1,4 +1,4 @@
-import { SectionImage, Image, TextWrapper, H2, P, Button } from "../utils";
+import { SectionImage, Image, TextWrapper, H2, P, Button } from "../Utils";
 import { sectionImage4 } from "../../assets";
 
 export function Way() {

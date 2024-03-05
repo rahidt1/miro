@@ -1,4 +1,4 @@
-import { SectionImage, H1, Button, Image, P } from "../utils";
+import { SectionImage, H1, Button, Image, P } from "../Utils";
 import {
   docusign,
   frog,

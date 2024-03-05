@@ -1,5 +1,5 @@
-import { H1, SectionImage, TextWrapper, H2, P, Image, Button } from "../utils";
-import { Point } from "../utils";
+import { H1, SectionImage, TextWrapper, H2, P, Image, Button } from "../Utils";
+import { Point } from "../Utils";
 import { BUILDWORKTEST } from "../../data";
 import { useState } from "react";
 
