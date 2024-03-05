@@ -8,6 +8,7 @@ export default {
       lg: { max: "1076px" },
       md: { max: "767px" },
       sm: { max: "639px" },
+      xs: { max: "420px" },
     },
     extend: {
       fontFamily: {

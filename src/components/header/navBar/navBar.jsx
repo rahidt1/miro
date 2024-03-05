@@ -17,10 +17,14 @@ export function NavBar() {
   return (
     <nav className="relative mx-auto my-0 flex w-full max-w-7xl items-center justify-between p-8  lg:flex-col lg:gap-y-2">
       <div className="flex gap-x-4 lg:flex-col lg:items-center lg:gap-y-8">
-        <Image src={miro} alt="Miro Logo" />
+        <Image
+          src={miro}
+          alt="Miro Logo"
+          className="xs:static left-8 top-8 lg:absolute"
+        />
 
         <NavList
-          className={`flex list-none items-center gap-x-3 lg:flex-col lg:items-center lg:gap-y-2 ${show ? "" : "lg:hidden"}`}
+          className={`xs:mt-0 flex list-none items-center gap-x-3 lg:mt-12 lg:flex-col lg:items-center lg:gap-y-2 ${show ? "" : "lg:hidden"}`}
         >
           <div
             className={`flex gap-x-3 lg:flex-col lg:items-center lg:gap-y-2`}
