@@ -22,8 +22,8 @@ function App() {
       )}
     >
       <Header />
-      {/* <Hero />
-      <Trusted />
+      <Hero />
+      {/* <Trusted />
       <Feature />
       <Work />
       <Connect />
@@ -31,7 +31,7 @@ function App() {
       <BuildWork />
       <BuildTeam />
       <Reviews />
-      <Footer /> */}
+      <Footer />  */}
     </div>
   );
 }

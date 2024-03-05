@@ -11,12 +11,12 @@ import { SectionImage, Button, Image, H1, Input } from "../utils";
 
 export function Hero() {
   return (
-    <SectionImage>
-      <div className="flex flex-col">
-        <H1 className="text-5xl font-bold text-slate-900">
+    <SectionImage className="p-8 ">
+      <div className="flex max-w-96 flex-col lg:max-w-lg ">
+        <H1 className="text-5xl font-bold text-slate-900 lg:text-center">
           Take ideas from better to best
         </H1>
-        <p className="mt-4 text-lg text-slate-900 opacity-70">
+        <p className="mt-4 text-lg text-slate-900 opacity-70 lg:text-center">
           Miro is your teams visual platform to connect, collaborate and create
           -- together
         </p>
@@ -27,10 +27,10 @@ export function Hero() {
           Collaborate with your team within minutes
         </p>
         <div
-          className="mt-7 flex w-96 items-center justify-between rounded-2xl bg-neutral-100 px-5 py-4
+          className="mt-7 flex items-center justify-between rounded-2xl bg-neutral-100 px-5 py-4 lg:justify-evenly lg:bg-orange-500 
         "
         >
-          <div>
+          <div className="">
             <div className="flex">
               <Image size={"w-4"} src={fullStar} />
               <Image size={"w-4"} src={fullStar} />
@@ -47,7 +47,7 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <Image size="w-full max-w-2xl" src={hero} alt="" />
+      <Image size="w-full h-auto max-w-2xl col-span-2" src={hero} alt="" />
     </SectionImage>
   );
 }

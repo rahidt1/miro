@@ -1,5 +1,5 @@
 import { Header } from "./header/Header.jsx";
-import { Hero } from "./hero/Hero.jsx";
+import { Hero } from "./hero/hero.jsx";
 import { Trusted } from "./trusted/Trusted.jsx";
 import { Feature } from "./feature/Feature.jsx";
 import { Work } from "./section/Work.jsx";
