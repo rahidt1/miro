@@ -1,7 +1,7 @@
 import { Link } from "./index.js";
 
 // Highlight a matching text from the description
-export function Highlighter({ highlight = "", children: text }) {
+export function Highlighter({ highlight = "", children: text, className }) {
   const index = text.toLowerCase().indexOf(highlight.toLowerCase());
 
   if (index >= 0 && highlight.length) {
@@ -12,7 +12,7 @@ export function Highlighter({ highlight = "", children: text }) {
     return (
       <highlight-text>
         {beforeHighlight}
-        <Link className="text-blue-500" href="#">
+        <Link className={`text-blue-500 ${className}`} href="#">
           {highlightedPart}
         </Link>
         {afterHighlight}

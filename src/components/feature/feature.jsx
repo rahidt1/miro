@@ -4,21 +4,21 @@ import { FEATURETEXT } from "../../data";
 
 export function Feature() {
   return (
-    <SectionImage className="flex-col items-center relative">
+    <SectionImage className="relative flex-col items-center">
       <Image
         className="absolute right-1/4 top-[-100px]"
         src={feature}
         size="w-52 h-52"
       />
-      <H1 className="text-center mt-12">
+      <H1 className="mt-12 text-center">
         Collaborate without <span className="block">constraints</span>
       </H1>
-      <div className="flex justify-evenly gap-x-20 mt-16">
+      <div className="mt-16 flex justify-evenly gap-x-20 lg:flex-col ">
         {FEATURETEXT.map((item) => (
           <div key={item.title}>
-            <H2>{item.title}</H2>
+            <H2 className="text-center">{item.title}</H2>
             <P>
-              <Highlighter highlight={item.keypoint}>
+              <Highlighter className="lg:text-center" highlight={item.keypoint}>
                 {item.description}
               </Highlighter>
             </P>
